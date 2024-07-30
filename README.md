@@ -1,12 +1,14 @@
-## Sockkeeper 
+## Sockkeeper
 
 A distributed client connection manager.
 
 - Keeps track of client socket connections.
 - Forwards messages from backend services to connected clients.
+  
+![Sockkeeper design](https://drive.google.com/file/d/1ZGwobQx5D8B5u44l9aBPluVs5cH9QN2v/view?usp=sharing)
 
 ## APIs
-### Accept client connections
+### Accept client connection
 
 protocol: ws <br> uri: /connect/{principal_id}
 

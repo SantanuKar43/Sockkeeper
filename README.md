@@ -5,7 +5,7 @@ A distributed client connection manager.
 - Forwards messages from backend services to connected clients.
   
 ## Design
-![Design](design.png)
+<img src="design.png" alt="design" width="300"/>
 
 ## APIs
 ### Accept client connection

@@ -5,7 +5,7 @@ A distributed client connection manager.
 - Keeps track of client socket connections.
 - Forwards messages from backend services to connected clients.
   
-![Sockkeeper design](https://drive.google.com/file/d/1ZGwobQx5D8B5u44l9aBPluVs5cH9QN2v/view?usp=sharing)
+![Design](design.png)
 
 ## APIs
 ### Accept client connection

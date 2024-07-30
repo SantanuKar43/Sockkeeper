@@ -15,7 +15,7 @@ protocol: ws <br> uri: /connect/{principal_id}
 ### Send message to client 
 protocol: http <br> uri: /send <br> method: POST
 
-`POST http://localhost:8888/send`
+`POST http://localhost:8888/sendMessage`
 
 
 Body:

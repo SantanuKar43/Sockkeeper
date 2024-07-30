@@ -23,7 +23,7 @@ public class MessageResource {
     }
 
     @POST
-    @Path("send")
+    @Path("/sendMessage")
     public void sendMessage(SendMessageRequest sendMessageRequest) throws IOException, InterruptedException {
         messageService.sendMessage(sendMessageRequest.getMessage(), sendMessageRequest.getPrincipal());
     }

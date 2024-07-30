@@ -8,10 +8,13 @@ A distributed client connection manager.
 ## APIs
 ### Accept client connections
 
+protocol: ws <br> uri: /connect/{principal_id}
+
 `ws://localhost:8888/connect/santanukar`
 
 ### Send message to client 
-    
+protocol: http <br> uri: /send <br> method: POST
+
 `POST http://localhost:8888/send`
 
 
